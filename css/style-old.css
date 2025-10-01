@@ -87,77 +87,34 @@ color:  #404bbf;
 }
 
 
-
-/*SECTION 2*/
-
-.feature-section {
-    background-color: #FFFFFF;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
- .feature-list {
-     display: flex;
-     gap: 24px;
- }
-
- .feature-li {
-     width: calc((100% – 72px)/4);
- }
-
-.box {
-    width: 64;
-    height: 64;
-display: flex;
-align-items: center;
-justify-content: center;
-height: 112px;
-background-color: #f4f4fd;
-border-radius: 4px;
-border: 1px solid #8e8f99;
-margin-bottom: 8px;
-}
-
-.feature-name {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    margin-bottom: 8px;
-}
-
-.feature-description {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-
-}
-
-.visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0, 0, 0, 0);
-overflow: hidden;
-}
-
-
 /*SECTION 3*/
 
 .team-section {
-background-color: #F4F4FD;
-padding: 120px 0;
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
+
+.page-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+
+.team-list {
+    display: flex;
+    align-items: start;
+    gap: 24px;
+}
+
+
 
 .team-item {
 background-color: #FFFFFF;
@@ -183,7 +140,6 @@ margin-top: 8px;
 .item-list-div {
 width: 40px;
 height: 40px;
-
 }
 
 .social-links {
@@ -205,23 +161,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color: #404bbf;
 }
 
-.team-list {
-    display: flex;
-    align-items: start;
-    gap: 24px;    
-}
 
-.page-name {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
-color: #2E2F42;
-margin-bottom: 72px;
-}
+
 
 .team-designer{
 background-color: #FFFFFF;
